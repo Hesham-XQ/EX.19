@@ -16,8 +16,8 @@ jobs:
       - run:
           name: Configure server
           command: |
-            export ANSIBLE_HOST_KEY_CHECKING=False
-            ansible-playbook  playbook.yml  -i inventory.txt
+            
+            ansible all -i inventory --private-key ansible-key.pem -m ping
 workflows:
   my_workflow:
     jobs:
