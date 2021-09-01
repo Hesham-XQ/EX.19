@@ -1,2 +1,2 @@
 [all]
-ec2-44-192-88-239.compute-1.amazonaws.com
+44.192.88.239
