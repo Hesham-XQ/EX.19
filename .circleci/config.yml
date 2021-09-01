@@ -8,7 +8,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "f6:20:b2:a0:d4:78:16:a2:e8:1d:da:59:ae:35:65:c3"
+            - "63:c3:e3:29:77:0d:af:88:ae:a6:28:9a:9c:75:1c:45"
       - run:
           name: Install dependencies
           command: |
@@ -22,3 +22,4 @@ workflows:
   my_workflow:
     jobs:
       - ansible-install
+      
